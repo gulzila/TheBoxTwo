@@ -21,10 +21,7 @@ class TermsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func onScreenTap(sender: AnyObject) {
-        
-        println("GO AWAY")
+    @IBAction func onButtonTap(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
     /*

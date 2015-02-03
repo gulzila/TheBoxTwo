@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tsN-1z-tcR" kind="modal" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="a7N-nV-Bdt"/>
+                                    <segue destination="tsN-1z-tcR" kind="modal" modalPresentationStyle="fullScreen" animates="NO" id="a7N-nV-Bdt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,7 +53,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Afu-zm-TzV" kind="modal" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="YID-uX-Khd"/>
+                                    <segue destination="Afu-zm-TzV" kind="modal" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" animates="NO" id="YID-uX-Khd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -84,7 +84,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Y2k-SA-2ys" kind="modal" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="scS-OG-9Ym"/>
+                                    <segue destination="Y2k-SA-2ys" kind="modal" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" animates="NO" id="scS-OG-9Ym"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oWq-N0-P4i">
@@ -463,7 +463,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FlU-bW-Y2Y" kind="modal" id="Rwu-Ks-cfi"/>
+                                    <segue destination="bhN-IK-hAK" kind="modal" id="hFC-j4-kXv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -476,43 +476,34 @@
             <point key="canvasLocation" x="4180" y="-286"/>
         </scene>
         <!--Terms View Controller-->
-        <scene sceneID="nl2-o8-Kdv">
+        <scene sceneID="2W4-Ve-qVf">
             <objects>
-                <viewController id="FlU-bW-Y2Y" customClass="TermsViewController" customModule="TheBoxTwo" customModuleProvider="target" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="terms" id="YVc-wg-fRq">
+                <viewController id="bhN-IK-hAK" customClass="TermsViewController" customModule="TheBoxTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q4r-NR-VYK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="kYq-2R-ACW" appends="YES" id="XcW-3c-0Xq"/>
-                            <outletCollection property="gestureRecognizers" destination="kYq-2R-ACW" appends="YES" id="G1g-RL-hXj"/>
-                            <outletCollection property="gestureRecognizers" destination="kYq-2R-ACW" appends="YES" id="FCo-l5-10X"/>
-                            <outletCollection property="gestureRecognizers" destination="kYq-2R-ACW" appends="YES" id="i4r-PW-l4s"/>
-                            <outletCollection property="gestureRecognizers" destination="kYq-2R-ACW" appends="YES" id="n5K-mS-GE4"/>
-                            <outletCollection property="gestureRecognizers" destination="9je-Ib-YYG" appends="YES" id="GgS-lt-h47"/>
-                        </connections>
-                    </imageView>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="terms" id="jFk-jk-6dg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RNR-ph-VYJ">
+                                <rect key="frame" x="263" y="27" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButtonTap:" destination="bhN-IK-hAK" eventType="touchUpInside" id="OfD-hl-I4E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vgg-uz-MwU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zjn-0c-HeR">
-                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <tapGestureRecognizer id="kYq-2R-ACW">
-                    <connections>
-                        <action selector="onScreenTap:" destination="FlU-bW-Y2Y" id="2Se-7k-oL2"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="9je-Ib-YYG">
-                    <connections>
-                        <action selector="onScreenTap:" destination="FlU-bW-Y2Y" id="NDq-ib-qtn"/>
-                    </connections>
-                </swipeGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eCa-5r-4wG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4566" y="-286"/>
+            <point key="canvasLocation" x="4577" y="-286"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="f3n-53-mVw">
