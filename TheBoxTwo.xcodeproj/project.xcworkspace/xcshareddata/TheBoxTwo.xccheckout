@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51DD7904-E032-4358-86E1-595750305925</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheBoxTwo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99EC5113FB94EC2961F69FF1F5B67FD930E8C0A8</key>
+		<string>https://github.com/gulzila/TheBoxTwo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheBoxTwo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99EC5113FB94EC2961F69FF1F5B67FD930E8C0A8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gulzila/TheBoxTwo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99EC5113FB94EC2961F69FF1F5B67FD930E8C0A8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99EC5113FB94EC2961F69FF1F5B67FD930E8C0A8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheBoxTwo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -13,6 +13,8 @@
 		92BC2AC71A805F8E004A56DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BC2AC61A805F8E004A56DF /* Images.xcassets */; };
 		92BC2ACA1A805F8E004A56DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BC2AC81A805F8E004A56DF /* LaunchScreen.xib */; };
 		92BC2AD61A805F8E004A56DF /* TheBoxTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2AD51A805F8E004A56DF /* TheBoxTwoTests.swift */; };
+		92BC2AE01A807D8E004A56DF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ADF1A807D8E004A56DF /* TermsViewController.swift */; };
+		92BC2AE21A80802B004A56DF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2AE11A80802B004A56DF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		92BC2ACF1A805F8E004A56DF /* TheBoxTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBoxTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BC2AD41A805F8E004A56DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92BC2AD51A805F8E004A56DF /* TheBoxTwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBoxTwoTests.swift; sourceTree = "<group>"; };
+		92BC2ADF1A807D8E004A56DF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		92BC2AE11A80802B004A56DF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		92BC2ABC1A805F8E004A56DF /* TheBoxTwo */ = {
 			isa = PBXGroup;
 			children = (
+				92BC2AE11A80802B004A56DF /* SettingsViewController.swift */,
 				92BC2ABF1A805F8E004A56DF /* AppDelegate.swift */,
 				92BC2AC11A805F8E004A56DF /* ViewController.swift */,
 				92BC2AC31A805F8E004A56DF /* Main.storyboard */,
+				92BC2ADF1A807D8E004A56DF /* TermsViewController.swift */,
 				92BC2AC61A805F8E004A56DF /* Images.xcassets */,
 				92BC2AC81A805F8E004A56DF /* LaunchScreen.xib */,
 				92BC2ABD1A805F8E004A56DF /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BC2AC21A805F8E004A56DF /* ViewController.swift in Sources */,
+				92BC2AE01A807D8E004A56DF /* TermsViewController.swift in Sources */,
 				92BC2AC01A805F8E004A56DF /* AppDelegate.swift in Sources */,
+				92BC2AE21A80802B004A56DF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				92BC2ADB1A805F8E004A56DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92BC2ADC1A805F8E004A56DF /* Build configuration list for PBXNativeTarget "TheBoxTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				92BC2ADE1A805F8E004A56DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
