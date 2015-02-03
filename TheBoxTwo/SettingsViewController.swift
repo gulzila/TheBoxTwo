@@ -14,13 +14,14 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollViewer.contentSize = CGSize(width:view.frame.size.width, height:1000)
 
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        scrollViewer.contentSize = CGSize(width:320, height:1000)
+        
         // Dispose of any resources that can be recreated.
     }
     
